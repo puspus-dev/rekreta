@@ -1,4 +1,5 @@
-# reKréta
-Kréta *csak jobb*. 
+#reKréta
+
+Kréta *csak jobb*
 
 Még fejlesztés alatt!
