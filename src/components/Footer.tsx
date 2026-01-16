@@ -29,7 +29,9 @@ const Footer = () => {
           {/* Social */}
           <div className="flex items-center gap-4">
             <a
-              href="#"
+              href="https://github.com/puspus-dev/rekreta"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center text-muted-foreground hover:text-foreground hover:bg-secondary/80 transition-colors"
             >
               <Github className="w-5 h-5" />

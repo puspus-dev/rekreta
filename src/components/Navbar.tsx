@@ -9,7 +9,7 @@ const Navbar = () => {
   const navLinks = [
     { label: "Funkciók", href: "#features" },
     { label: "Letöltés", href: "#download" },
-    { label: "GitHub", href: "#" },
+    { label: "GitHub", href: "https://github.com/puspus-dev/rekreta", external: true },
   ];
 
   return (
@@ -25,12 +25,13 @@ const Navbar = () => {
               <span className="font-semibold text-lg text-foreground">reKréta</span>
             </a>
 
-            {/* Desktop nav */}
             <div className="hidden md:flex items-center gap-8">
               {navLinks.map((link) => (
                 <a
                   key={link.label}
                   href={link.href}
+                  target={link.external ? "_blank" : undefined}
+                  rel={link.external ? "noopener noreferrer" : undefined}
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
                   {link.label}
