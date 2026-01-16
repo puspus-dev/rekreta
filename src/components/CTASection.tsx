@@ -41,9 +41,11 @@ const CTASection = () => {
               Letöltés Android-ra
               <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
             </Button>
-            <Button variant="heroOutline" size="xl">
-              <Github className="w-5 h-5" />
-              GitHub
+            <Button variant="heroOutline" size="xl" asChild>
+              <a href="https://github.com/puspus-dev/rekreta" target="_blank" rel="noopener noreferrer">
+                <Github className="w-5 h-5" />
+                GitHub
+              </a>
             </Button>
           </motion.div>
 
